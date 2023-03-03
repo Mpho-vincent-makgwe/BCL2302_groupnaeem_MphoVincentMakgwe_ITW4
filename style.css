@@ -1,7 +1,10 @@
 html{
     font-family: monospace !important;
+    /* chosing a font family for my whole page */
 }
-
+*{
+    font-family: monospace !important;
+}
 
 .resume-box{
     color:rgb(206, 18, 18);
@@ -115,12 +118,6 @@ p {
         padding: 0;
 }
 
-
-.font {
-    font-size: 20px;
-    color:rgb(221, 110, 0);
-    text-align: justify;
-}
 
 .phone1 {
     font-size: 20px;

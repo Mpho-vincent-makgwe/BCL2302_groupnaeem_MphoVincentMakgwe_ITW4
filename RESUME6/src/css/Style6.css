@@ -3,47 +3,51 @@ html{
     font-family: monospace;
     align-items: inherit;
     background-color:rgb(255, 255, 255);
-    position: static;
-    padding-bottom: 0;
-}
+    position: center;
+    padding: 0;
+    margin: 0;
+}/* Styling my html page */
 body{
     padding: 0;
     margin: 0;
 }
-div{
-    margin: 0;
-    padding: 0;
-    margin-bottom: -10px;
-    position: relative;
-}
+/* Styling my body */
 .resume-box{
     position:relative;
     width: fit-content;
     height: auto;
     max-height: max-content;
 }
+
+/* this is my header section that i created using div */
 .header{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-style: outset double;
-    position: fit-content;
+    position: inherit;
     margin: 0;
     padding: 0;
     background-color: aqua;
     float: top;
     text-align: center;
 }
+
+/* giving picture a circular shape */
 .profile{
     clip-path: circle();
 }
 
+/* my nav bar */
 .navbar{
     float:inline-start;
     height: auto;
     width: 50%;
-    position: ;
+    position: inherit;
     color:rgb(255, 8, 197);
 }
+
+
+/* styling my left side */
 .left-part{
     border-bottom-left-radius: 20px;
     margin: 0;
@@ -63,7 +67,8 @@ div{
     padding: 0;
     margin: 0;
     float: right !important;
-    position: relative !important;;
-    width: 50%;
+    position: inherit !important;;
+    width: 50%;  
     height: 600px;
 }
+/* styling my right part */
