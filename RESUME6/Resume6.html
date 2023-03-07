@@ -8,7 +8,12 @@
     <title>Document</title>
 </head>
 <body>
+
+
+
+
     <div class="resume-box">
+            <header>
         <!-- this is for my resume page, it incleds all the sections(head, left part and the right part.) -->
         <div class="header">
             <div class="profile">
@@ -18,8 +23,10 @@
             <h2 class="intro">Mpho Vincent Makgwe</h2>
             <p class="intro">Software Engineer<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>
         </div>
-        
-        <div class="left-part">
+    </header>
+    <main>
+        <sectionOne>
+            <div class="left-part">
             <!-- this code/div is for my left column -->
             <div class="navigation">
             <h2 class="navbar">Menu</h2>
@@ -33,28 +40,31 @@
                     <li><a href="#Experince">Experince</a></li>
                 </ul>
             </nav>
-        </div>
+            </div>
+            
             <h2 id="Contacts">Contacts</h2>
-
-            <p class="contact"><a href="">0603597941</a>
-            </p><span><a href="">Mphomakgwe@gmail.com</a></span>
+<!-- REdirecting to the new tab with target="_blank" -->
+             <p class="contact"><a href="" target="_blank" >0603597941</a> 
+            </p><span><a href="https://outlook.live.com/mail/?login_hint=mphomakgwe4%40gmail.com&actSwt=true" target="_blank">Mphomakgwe@gmail.com</a></span>
             <span>Coding King at Rustenburg</span>
 
 <!-- I am not done yet -->
             <h1 id="Education" class="edu-h1">Education</h1>
 
-            <span class="span1">2019 - 2022</span>
+            <span>2019 - 2022</span>
             <p>Bachelor of Computer Science</p>
 
-            <span class="span1">2022 - 2023</span>
+            <span>2022 - 2023</span>
             <p>Software Engineering</p>
 
-            <span class="span1">2023 - 2026</span>
+            <span>2023 - 2026</span>
             <p>Cybernetics</p>
 
-            
-        </div>
-        <div class="right-part">
+            </div>
+        
+        </sectionOne>
+        <sectionTwo>
+            <div class="right-part">
             <!-- this is for my right section -->
             <div class="box">
 
@@ -91,7 +101,21 @@
                     <li>Music</li>
                 </ul>
             </div>
-        </div>
-    </div>
+<br></div>
+        </sectionTwo>
+        <footer>
+            <form action="https://formsubmit.co/mphomakgwe4@gmail.com" method="POST" target="_blank">
+                <h4>Contact Me</h4>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" required>
+                <label for="mail">Email:</label>
+                <input type="mail" id="mail" name="user_mail">
+                <label for="msg">Message:</label>
+                <textarea name="user_message" id="msg"></textarea>
+                <input type="submit">
+            </form>
+        </footer>
+    </main>
+    
 </body>
 </html>

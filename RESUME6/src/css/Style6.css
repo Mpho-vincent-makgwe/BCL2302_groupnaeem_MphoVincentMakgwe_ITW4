@@ -72,3 +72,8 @@ body{
     height: 600px;
 }
 /* styling my right part */
+footer {
+    background-attachment: flex-end;
+    float: left;
+    
+}
