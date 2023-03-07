@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./src/css/Style6.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <div class="resume-box">
+            <header>
+        <!-- this is for my resume page, it incleds all the sections(head, left part and the right part.) -->
+        <div class="header">
+            <div class="profile">
+                <!-- this is the code that I used to upload my profile picture into my resume -->
+                <img src="./src/images/WhatsApp Image 2023-03-01 at 19.10.52.jpg" width="100rem" height="100rem" alt="profile">
+            </div>
+            <h2 class="intro">Mpho Vincent Makgwe</h2>
+            <p class="intro">Software Engineer<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>
+        </div>
+    </header>
+    <main>
+        <sectionOne>
+            <div class="left-part">
+            <!-- this code/div is for my left column -->
+            <div class="navigation">
+            <h2 class="navbar">Menu</h2>
+            <nav class="navbar">
+                <ul class="list">
+                    <!-- this is a list of my bread crams -->
+                    <li><a href="#Contacts">Contacts</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href=#Interests>Interests</a></li>                        
+                    <li><a href="#Experince">Experince</a></li>
+                </ul>
+            </nav>
+            </div>
+            
+            <h2 id="Contacts">Contacts</h2>
+<!-- REdirecting to the new tab with target="_blank" -->
+             <p class="contact"><a href="" target="_blank" >0603597941</a> 
+            </p><span><a href="https://outlook.live.com/mail/?login_hint=mphomakgwe4%40gmail.com&actSwt=true" target="_blank">Mphomakgwe@gmail.com</a></span>
+            <span>Coding King at Rustenburg</span>
+
+<!-- I am not done yet -->
+            <h1 id="Education" class="edu-h1">Education</h1>
+
+            <span>2019 - 2022</span>
+            <p>Bachelor of Computer Science</p>
+
+            <span>2022 - 2023</span>
+            <p>Software Engineering</p>
+
+            <span>2023 - 2026</span>
+            <p>Cybernetics</p>
+
+            </div>
+        
+        </sectionOne>
+        <sectionTwo>
+            <div class="right-part">
+            <!-- this is for my right section -->
+            <div class="box">
+
+                <h2 id="Experince" class="heading">Experince</h2>
+                    <p class="heading-1">Software Engineering present</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <p class="heading-1">Software Engineering present</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="box">
+                <!-- I am not done with this part -->
+                <h2 id="Skills" class="heading">Skills</h2>
+                <p>HTML5</p>
+                <div id="prograss"></div>
+                
+                <p>web designer</p>
+                <div id="prograss1"></div>
+
+                <p>Software designer</p>
+                <div id="prograss2"></div>
+                
+                <p>CSS</p>
+                <div id="prograss3"></div>
+            </div>
+            <div class="box">
+                <h2 id="#Interests" class="heading">Interests</h2>  
+                <ul>
+                    <li>Gaming</li>
+                    <li>Drawing</li>
+                    <li>Anime</li>
+                    <li>Music</li>
+                </ul>
+            </div>
+</div>
+        </sectionTwo>
+        <footer>
+            <form action="https://formsubmit.co/mphomakgwe4@gmail.com" method="POST" target="_blank">
+                <h4>Contact Me</h4>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" required><br>
+<br>
+                <div>
+                <label for="surname:">Surname:</label>
+                <select>
+                    <option value="A">Mr.</option>
+                    <option value="A">Mrs.</option>
+                    <option value="A">Ms.</option>
+                </select>
+                <input type="text" id="surname" name="user_surname" required>
+                </div>
+
+<br>
+                <div>
+                <label for="contact">Phone Numbers:</label>
+                <input type="text" id="contact" name="user_contact" required>
+                </div>
+<br>
+                <div>
+                <label for="mail">Email:</label>
+                <input type="mail" id="mail" name="user_mail">
+                </div>
+<br>
+                <div>
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="">--Please select--</option>
+                    <option value="General Inquiry">Interview</option>
+                    <option value="Collaboration">Collaboration</option>
+                    <option value="Job Opportunity">Website Development</option>
+                    <option value="Feedback">Digital resume</option>
+                </select>
+                </div>
+<br>
+                <div>
+                <td><label for="msg">Comment:</label>
+                <textarea name="user_message" id="msg"></textarea>
+                <input type="submit"></td>
+                </div>
+
+            </form>
+        </footer>
+    </main>
+    
+</body>
+</html>

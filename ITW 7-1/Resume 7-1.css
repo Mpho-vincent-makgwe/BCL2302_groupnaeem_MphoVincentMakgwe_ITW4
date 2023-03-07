@@ -1,0 +1,89 @@
+
+html{
+    font-family: monospace;
+    align-items: inherit;
+    background-color:rgb(255, 255, 255);
+    position: center;
+    padding: 0;
+    margin: 0;
+}/* Styling my html page */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling my body */
+.resume-box{
+    position:relative;
+    width: fit-content;
+    height: auto;
+    max-height: max-content;
+}
+
+/* this is my header section that i created using div */
+.header{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: outset double;
+    position: inherit;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    float: top;
+    text-align: center;
+}
+
+/* giving picture a circular shape */
+.profile{
+    clip-path: circle();
+}
+
+/* my nav bar */
+.navbar{
+    float:inline-start;
+    height: auto;
+    width: 50%;
+    position: inherit;
+    color:rgb(255, 8, 197);
+}
+
+
+/* styling my left side */
+.left-part{
+    border-bottom-left-radius: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    border-style: calc(fit-content);
+    background-color: rgb(177, 215, 215);
+    float: left;
+    position: inherit;
+    width: 50%;
+    height: 600px;
+}
+
+.right-part{
+    border-bottom-right-radius: 20px;
+    background-color: darkkhaki;
+    padding: 0;
+    margin: 0;
+    float: right !important;
+    position: inherit !important;;
+    width: 50%;  
+    height: 600px;
+}
+
+/* styling my Form */
+footer {
+    display: grid;
+    background-attachment: flex-end;
+    float: left;
+    position: inherit;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    float: bz;
+    text-align: center;
+    
+}
