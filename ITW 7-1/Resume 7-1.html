@@ -16,7 +16,12 @@
         <div class="header">
             <div class="profile">
                 <!-- this is the code that I used to upload my profile picture into my resume -->
-                <img src="./src/images/WhatsApp Image 2023-03-01 at 19.10.52.jpg" width="100rem" height="100rem" alt="profile">
+                <picture>
+                    <source srcset="./src/images/Small.jpg" media="(max-width: 400px)">
+                    <source srcset="./src/images/Medium.jpg" media="(max-width: 768px)">
+                    <img src="./src/images/Big.jpg" alt="profile">
+                </picture>
+                
             </div>
             <h2 class="intro">Mpho Vincent Makgwe</h2>
             <p class="intro">Software Engineer<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>
