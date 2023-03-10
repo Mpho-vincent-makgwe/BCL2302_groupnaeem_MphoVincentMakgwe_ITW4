@@ -10,52 +10,34 @@ html{
 
 body{ 
     margin: 0%;
-    padding: 0%;
-}
-
-div {
 }
 
 
+/* this is my resume box */
 .resume-box {
-    margin-right: 5%;
-    margin-left: 5%;
-    padding-right: 0;
+    display: grid;
+    width: fit-content;
+    height: fit-content;
     border-style: outset double;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: tan;
-    position: absolute;
-
 } 
-/* making a box block thats centred with css=[    width: 750px;
-    height: fit-content;
-    transform: translate(-50%, 0%);
-    left: 50%;
-    top: 50%;] */
 
 
+/* giving picture a circular shape */
 img {
     max-width: 100%;
     max-height: 100%;
     height: 50%; 
     width: 50%;
-    border-radius: 50%;
+    border-radius: 90%;
+    border: solid 3px #ca07ec;
 }
 
 
-/* giving picture a circular shape */
-.profile{
-    align-self: center;
-    text-align: center;
-    box-sizing: border-box;
-    border:3px solid #d9d9d9;
-    clip-path: circle();
-
-
-}
 
 /* this is my header section that i created using div */
 .header{
@@ -70,83 +52,66 @@ img {
     text-align: center;
 }
 
-/*html{
-
-    font-family: monospace;
-    align-items: inherit;
-    background-color:rgb(255, 255, 255);
-    position: center;
-    padding: 0;
-    margin: 0;
-}/* Styling my html page */
-
-*{
-    
-}
-
-
-
-/* Styling my body */
-
-
-
 
 
 
 /* my nav bar */
 .navbar{
+    float: left !important;;
     margin: 0;
     padding: 0;
     float:inline-start;
-    height: auto;
     width: 50%;
     position: inherit;
-    color:rgb(255, 8, 197);
+    background-color:aquamarine
 }
 
 
 /* styling my left side */
-.left-part{
-    
-    border-style:solid 1px;
+.right-part{
     margin: 0%;
     padding: 0%;
+    float: right ;
     margin-top: 0%;
     background-color: rgb(177, 215, 215);
-    float: left;
-    position: inherit;
+    position: inherit !important;
     width: 50%;
-    height: 600px;
+    height: 100%;
 }
 
-.right-part{
-    border-style: ;
-    background-color: darkkhaki;
-    padding: 0;
-    margin: 0;
-    float: right !important;
-    position: inherit !important;;
-    width: 50%;  
-    height: 600px;
+/* this is for my left part and i switched my floats they didn't function well */
+.left-part{
+    margin: 0%;
+    padding: 0%;
+    float: right ;
+    margin-top: 0%;
+    background-color: rgb(177, 215, 215);
+    position: inherit !important;
+    width: 50%;
+    height: fit-content;
 }
 
-/* styling my Form */
-footer {
-    border-style: double;
+
+/* cutting bottom edges of my footer or bottom part */
+
+.bottom{
+    background-color: aqua;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    display:;
-    background-attachment: flex-end;
-    position: inherit;
-    margin: 0;
-    padding: 0;
-    background-color: aqua;
-    float: left;
-    height: fit-content;
-    width: 100%;
+    border-style: outset double;
+    float: bottom; 
+    text-align: center;
 }
 
+/* I was making my lists dots to appear */
 ul{
     list-style-type: disc;
     margin-left: 20px;
+}
+
+@media screen(max-width: 425px) {
+    
+}
+@media screen(max-width: 768px) {
+    
 }
