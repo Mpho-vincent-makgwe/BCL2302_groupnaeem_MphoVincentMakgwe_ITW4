@@ -22,6 +22,18 @@ body{
     border-bottom-right-radius: 20px;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.show {
+    display: block;
+}
+
 
 /* this is my resume box */
 .resume-box {
